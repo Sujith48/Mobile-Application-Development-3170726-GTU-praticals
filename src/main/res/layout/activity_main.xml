@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".implicit_intent">
+    //implicit intent
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnDial"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dial"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/btnCam"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Camera"
+            android:padding="5dp"
+            android:layout_margin="5dp"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            android:id="@+id/btnEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+        </Button>
+        <Button
+            android:id="@+id/btnShare"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Share"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+        </Button>
+        <Button
+            android:id="@+id/btnMssg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mssg"
+            android:padding="5dp"
+            android:layout_margin="5dp">
+        </Button>
+    </LinearLayout>
+
+</LinearLayout>
